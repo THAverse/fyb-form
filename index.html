@@ -4,57 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FYB Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Final Year Brethren (FYB) Form</h2>
-  <form>
-    <!-- Name -->
-    <label for="name">Full Name:</label>
-    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-    <br><br>
+  <div class="container">
+    <h1>🎓 Final Year Brethren (FYB) Form</h1>
+    <p>Please fill out the form below to share your FYB experience ✨</p>
 
-    <!-- Hobby -->
-    <label for="hobby">Hobby:</label>
-    <input type="text" id="hobby" name="hobby" placeholder="Enter your hobby">
-    <br><br>
+    <form action="#" method="post">
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
-    <!-- Favorite Course -->
-    <label for="favCourse">Favorite Course:</label>
-    <input type="text" id="favCourse" name="favCourse">
-    <br><br>
+      <!-- Hobby -->
+      <label for="hobby">Hobby:</label>
+      <input type="text" id="hobby" name="hobby" placeholder="What’s your favorite hobby?">
 
-    <!-- Worst Moment -->
-    <label for="worstMoment">Worst Moment:</label>
-    <textarea id="worstMoment" name="worstMoment" rows="3" cols="30"></textarea>
-    <br><br>
+      <!-- Favorite Course -->
+      <label for="fav-course">Favorite Course:</label>
+      <input type="text" id="fav-course" name="fav-course" placeholder="Enter your favorite course">
 
-    <!-- Best Moment -->
-    <label for="bestMoment">Best Moment:</label>
-    <textarea id="bestMoment" name="bestMoment" rows="3" cols="30"></textarea>
-    <br><br>
+      <!-- Worst Moment -->
+      <label for="worst">Worst Moment:</label>
+      <textarea id="worst" name="worst" placeholder="Share your worst university moment"></textarea>
 
-    <!-- Favorite Course Mate -->
-    <label for="favCourseMate">Favorite Course Mate:</label>
-    <input type="text" id="favCourseMate" name="favCourseMate">
-    <br><br>
+      <!-- Best Moment -->
+      <label for="best">Best Moment:</label>
+      <textarea id="best" name="best" placeholder="Share your best university moment"></textarea>
 
-    <!-- Best Lecturer -->
-    <label for="bestLecturer">Best Lecturer:</label>
-    <input type="text" id="bestLecturer" name="bestLecturer">
-    <br><br>
+      <!-- Favorite Coursemate -->
+      <label for="mate">Favorite Coursemate:</label>
+      <input type="text" id="mate" name="mate" placeholder="Enter their name">
 
-    <!-- Date of Birth -->
-    <label for="dob">Date of Birth:</label>
-    <input type="date" id="dob" name="dob">
-    <br><br>
+      <!-- Best Lecturer -->
+      <label for="lecturer">Best Lecturer:</label>
+      <input type="text" id="lecturer" name="lecturer" placeholder="Enter lecturer's name">
 
-    <!-- Favorite Quote -->
-    <label for="favQuote">Favorite Quote:</label>
-    <textarea id="favQuote" name="favQuote" rows="2" cols="30"></textarea>
-    <br><br>
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
 
-    <!-- Submit Button -->
-    <button type="submit">Submit</button>
-  </form>
+      <!-- Favorite Quote -->
+      <label for="quote">Favorite Quote:</label>
+      <textarea id="quote" name="quote" placeholder="Write your favorite quote"></textarea>
+
+      <!-- Submit -->
+      <button type="submit">Submit Form</button>
+    </form>
+  </div>
 </body>
 </html>
